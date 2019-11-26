@@ -1,0 +1,26 @@
+cpp_ex2
+nadav366
+205457534
+######
+
+The software reads a csv file, which is sent as a parameter, and prints three types of fractals,
+according to the file's instructions.
+
+Exercise Details-
+The exercise is built on one fractal class, which is a fractal and contains a string that is the
+fractal pattern and the line length.
+All class functions recursively create the fractal according to the given pattern.
+According to this realization, which I found extremely effective and elegant, inheritance was not
+necessary, but merely a preserve, for each type of fractal the appropriate pattern and size.
+
+Programming principles-
+In realization, I kept the following principles -
+The Open Principle - Closed - You can add more types of fractals easily and without having to
+change the main class at all.
+The only principle of choice - to add more fractal types, only change one place - in the generator
+that creates the objects.
+
+The realization I chose, in my opinion, is the most changeable and expandable because everything is
+built on a template - that can be added and changed very easily.
+
+
